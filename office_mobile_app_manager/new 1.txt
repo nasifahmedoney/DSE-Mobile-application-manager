@@ -1,0 +1,8 @@
+x == "Ledger Balance"-in list || x == "not_set"-out list ->set_90_percent
+	  set_90_percent()                   90_percent 
+
+x == "90_percent"-out list || x == "set_90_percent"-in list ->not_set
+	  not_set()						Ledger Balance
+	  
+<option value="not_set">Ledger Balance</option>
+<option value="set_90_percent">90 Percent</option>
